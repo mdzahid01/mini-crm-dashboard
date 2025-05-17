@@ -1,12 +1,21 @@
-# React + Vite
+# Mini CRM Dashboard 🧑‍💼📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It simulates a basic CRM system with authentication, protected routes, theming, and contact management using dummy data from a public API.
 
-Currently, two official plugins are available:
+> ✅ **This project is built to understand and implement:**
+> - React Router v6 (including protected and nested routes)
+> - Context API (for authentication and theming)
+> - Custom Hooks (for form and state management)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Login authentication (mocked)
+- 🔒 Protected routes using custom `ProtectedRoute`
+- 📄 Contact list with individual detail page
+- 🌗 Theme support (light/dark)
+- ⛔ 404 Not Found page
+- 🧠 Real-world app structure using `pages/`, `routes/`, `contexts/`, and `components/`
+
+## 🗂️ Project Structure
